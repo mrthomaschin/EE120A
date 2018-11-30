@@ -1,0 +1,4 @@
+AR mux behavioral D:/Projects/EE120A/lab_2/sprinkler_valve_controller/mux.vhf sub00/vhpl03 1526610659
+EN sprinkler_circuit NULL D:/Projects/EE120A/lab_2/sprinkler_valve_controller/sprinkler_circuit.vhf sub00/vhpl00 1526609807
+EN mux NULL D:/Projects/EE120A/lab_2/sprinkler_valve_controller/mux.vhf sub00/vhpl02 1526610658
+AR sprinkler_circuit behavioral D:/Projects/EE120A/lab_2/sprinkler_valve_controller/sprinkler_circuit.vhf sub00/vhpl01 1526609808

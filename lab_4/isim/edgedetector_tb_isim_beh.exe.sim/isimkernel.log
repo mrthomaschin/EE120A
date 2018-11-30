@@ -1,0 +1,29 @@
+Command line:
+   edgedetector_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  54779
+
+Wed Feb 21 19:59:51 2018
+
+
+ Elaboration Time: 0.171875 sec
+
+ Current Memory Usage: 1687.63 Meg
+
+ Total Signals          : 21
+ Total Nets             : 18
+ Total Signal Drivers   : 10
+ Total Blocks           : 4
+ Total Primitive Blocks : 2
+ Total Processes        : 16
+ Total Traceable Variables  : 28
+ Total Scalar Nets and Variables : 133
+Total Line Count : 54
+
+ Total Simulation Time: 0.21875 sec
+
+ Current Memory Usage: 429.306 Meg
+
+Thu Feb 22 12:54:19 2018
+

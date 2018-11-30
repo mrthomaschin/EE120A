@@ -1,0 +1,50 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : lab1.vf
+// /___/   /\     Timestamp : 05/02/2018 20:22:52
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan3e -verilog D:/Projects/EE120A/lab_1/lab1.vf -w D:/Projects/EE120A/lab_1/lab1.sch
+//Design Name: lab1
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module lab1(A, 
+            B, 
+            d0, 
+            d1, 
+            d2, 
+            d3);
+
+    input A;
+    input B;
+   output d0;
+   output d1;
+   output d2;
+   output d3;
+   
+   
+   AND2  XLXI_1 (.I0(B), 
+                .I1(A), 
+                .O(d0));
+   NAND2  XLXI_2 (.I0(B), 
+                 .I1(B), 
+                 .O(d1));
+   OR2  XLXI_3 (.I0(B), 
+               .I1(B), 
+               .O(d2));
+   NOR2  XLXI_4 (.I0(B), 
+                .I1(B), 
+                .O(d3));
+endmodule

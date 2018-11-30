@@ -1,0 +1,6 @@
+MO fasystem_bh NULL part1/fasystem_bh.v vlg49/fasystem__bh.bin 1526599892
+MO clkdiv NULL part2/clkdiv.v vlg31/clkdiv.bin 1519259401
+MO disp_mux_main_bh NULL part3/disp_mux_main_bh.v vlg72/disp__mux__main__bh.bin 1519264613
+MO bcdto7led_bh NULL part3/bcdto7led_bh.v vlg1D/bcdto7led__bh.bin 1519264613
+MO disp_mux_bh NULL part3/disp_mux_bh.v vlg32/disp__mux__bh.bin 1519264613
+MO edgedetector_bh NULL part2/edgedetector_bh.v vlg7C/edgedetector__bh.bin 1519259401

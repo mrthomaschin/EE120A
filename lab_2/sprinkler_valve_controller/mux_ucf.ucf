@@ -1,0 +1,11 @@
+//input
+NET "s0" LOC = "N3";
+NET "s1" LOC = "E2";
+
+NET "i0" LOC = "G3";
+NET "i1" LOC = "B4";
+NET "i2" LOC = "K3";
+NET "i3" LOC = "L3";
+
+//output
+NET "d" LOC = "G1";

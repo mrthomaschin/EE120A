@@ -1,0 +1,19 @@
+//input
+NET "clock" LOC = "M4";
+NET "reset" LOC = "A7";
+NET "start" LOC = "P11";
+
+//output
+NET "a" LOC = "L14";
+NET "b" LOC = "H12";
+NET "c" LOC = "N14";
+NET "d" LOC = "N11";
+NET "e" LOC = "P12";
+NET "f" LOC = "L13";
+NET "g" LOC = "M12";
+NET "dp" LOC = "N13";
+
+NET "an[0]" LOC = "F12";
+NET "an[1]" LOC = "J12";
+NET "an[2]" LOC = "M13";
+NET "an[3]" LOC = "K14";

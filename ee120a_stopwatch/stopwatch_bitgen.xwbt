@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Projects\EE120A\ee120a_stopwatch\stopwatch.ncd
+OUTFILE=D:\Projects\EE120A\ee120a_stopwatch\stopwatch.bit
+FAMILY=Spartan3E
+PART=xc3s100e-5cp132
+WORKINGDIR=D:\Projects\EE120A\ee120a_stopwatch
+LICENSE=WebPack
+USER_INFO=211522945_0_0_638

@@ -1,0 +1,6 @@
+NET "A" LOC = "pA7"
+NET "B" LOC = "pM4"
+NET "d0" LOC = "pG1"
+NET "d1" LOC = "pP4"
+NET "d2" LOC = "pN4"
+NET "d3" LOC = "pN5"

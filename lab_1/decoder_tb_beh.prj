@@ -1,0 +1,4 @@
+verilog work "and41.v"
+verilog work "decoder_st.v"
+verilog work "decoder_tb.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

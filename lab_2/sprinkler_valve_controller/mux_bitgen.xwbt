@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Projects\EE120A\lab_2\sprinkler_valve_controller\mux.ncd
+OUTFILE=D:\Projects\EE120A\lab_2\sprinkler_valve_controller\mux.bit
+FAMILY=Spartan3E
+PART=xc3s100e-5cp132
+WORKINGDIR=D:\Projects\EE120A\lab_2\sprinkler_valve_controller
+LICENSE=WebPack
+USER_INFO=211522945_0_0_638

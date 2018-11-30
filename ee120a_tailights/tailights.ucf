@@ -1,0 +1,15 @@
+//INPUTS
+NET "Left" LOC = "K3";
+NET "Right" LOC = "P11";
+NET "Haz" LOC = "L3";
+
+//OUTPUTS
+NET "LT[0]" LOC = "N5";
+NET "LT[1]" LOC = "N4";
+NET "LT[2]" LOC = "P4";
+NET "LT[3]" LOC = "G1";
+
+NET "RT[0]" LOC = "P6";
+NET "RT[1]" LOC = "P7";
+NET "RT[2]" LOC = "M11";
+NET "RT[3]" LOC = "M5";

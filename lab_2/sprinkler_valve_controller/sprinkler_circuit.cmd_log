@@ -1,0 +1,78 @@
+xst -intstyle ise -ifn "D:/Projects/EE120A/lab_2/sprinkler_valve_controller/sprinkler_circuit.xst" -ofn "D:/Projects/EE120A/lab_2/sprinkler_valve_controller/sprinkler_circuit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 sprinkler_circuit.ngc sprinkler_circuit.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o sprinkler_circuit_map.ncd sprinkler_circuit.ngd sprinkler_circuit.pcf 
+par -w -intstyle ise -ol high -t 1 sprinkler_circuit_map.ncd sprinkler_circuit.ncd sprinkler_circuit.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml sprinkler_circuit.twx sprinkler_circuit.ncd -o sprinkler_circuit.twr sprinkler_circuit.pcf 
+xst -intstyle ise -ifn "D:/Projects/EE120A/lab_2/sprinkler_valve_controller/sprinkler_circuit.xst" -ofn "D:/Projects/EE120A/lab_2/sprinkler_valve_controller/sprinkler_circuit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 sprinkler_circuit.ngc sprinkler_circuit.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o sprinkler_circuit_map.ncd sprinkler_circuit.ngd sprinkler_circuit.pcf 
+par -w -intstyle ise -ol high -t 1 sprinkler_circuit_map.ncd sprinkler_circuit.ncd sprinkler_circuit.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml sprinkler_circuit.twx sprinkler_circuit.ncd -o sprinkler_circuit.twr sprinkler_circuit.pcf 
+xst -intstyle ise -ifn "D:/Projects/EE120A/lab_2/sprinkler_valve_controller/sprinkler_circuit.xst" -ofn "D:/Projects/EE120A/lab_2/sprinkler_valve_controller/sprinkler_circuit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 sprinkler_circuit.ngc sprinkler_circuit.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o sprinkler_circuit_map.ncd sprinkler_circuit.ngd sprinkler_circuit.pcf 
+par -w -intstyle ise -ol high -t 1 sprinkler_circuit_map.ncd sprinkler_circuit.ncd sprinkler_circuit.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml sprinkler_circuit.twx sprinkler_circuit.ncd -o sprinkler_circuit.twr sprinkler_circuit.pcf 
+bitgen -intstyle ise -f sprinkler_circuit.ut sprinkler_circuit.ncd 
+xst -intstyle ise -ifn "D:/Projects/EE120A/lab_2/sprinkler_valve_controller/sprinkler_circuit.xst" -ofn "D:/Projects/EE120A/lab_2/sprinkler_valve_controller/sprinkler_circuit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 sprinkler_circuit.ngc sprinkler_circuit.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o sprinkler_circuit_map.ncd sprinkler_circuit.ngd sprinkler_circuit.pcf 
+par -w -intstyle ise -ol high -t 1 sprinkler_circuit_map.ncd sprinkler_circuit.ncd sprinkler_circuit.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml sprinkler_circuit.twx sprinkler_circuit.ncd -o sprinkler_circuit.twr sprinkler_circuit.pcf 
+xst -intstyle ise -ifn "D:/Projects/EE120A/lab_2/sprinkler_valve_controller/sprinkler_circuit.xst" -ofn "D:/Projects/EE120A/lab_2/sprinkler_valve_controller/sprinkler_circuit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -bm mux_tb.bmm -p xc3s100e-cp132-5 sprinkler_circuit.ngc sprinkler_circuit.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o sprinkler_circuit_map.ncd sprinkler_circuit.ngd sprinkler_circuit.pcf 
+par -w -intstyle ise -ol high -t 1 sprinkler_circuit_map.ncd sprinkler_circuit.ncd sprinkler_circuit.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml sprinkler_circuit.twx sprinkler_circuit.ncd -o sprinkler_circuit.twr sprinkler_circuit.pcf 
+bitgen -intstyle ise -f sprinkler_circuit.ut sprinkler_circuit.ncd 
+bitgen -intstyle ise -f sprinkler_circuit.ut sprinkler_circuit.ncd 
+xst -intstyle ise -ifn "D:/Projects/EE120A/lab_2/sprinkler_valve_controller/sprinkler_circuit.xst" -ofn "D:/Projects/EE120A/lab_2/sprinkler_valve_controller/sprinkler_circuit.syr" 
+xst -intstyle ise -ifn "D:/Projects/EE120A/lab_2/sprinkler_valve_controller/sprinkler_circuit.xst" -ofn "D:/Projects/EE120A/lab_2/sprinkler_valve_controller/sprinkler_circuit.syr" 
+xst -intstyle ise -ifn "D:/Projects/EE120A/lab_2/sprinkler_valve_controller/sprinkler_circuit.xst" -ofn "D:/Projects/EE120A/lab_2/sprinkler_valve_controller/sprinkler_circuit.syr" 
+xst -intstyle ise -ifn "D:/Projects/EE120A/lab_2/sprinkler_valve_controller/sprinkler_circuit.xst" -ofn "D:/Projects/EE120A/lab_2/sprinkler_valve_controller/sprinkler_circuit.syr" 
+xst -intstyle ise -ifn "D:/Projects/EE120A/lab_2/sprinkler_valve_controller/sprinkler_circuit.xst" -ofn "D:/Projects/EE120A/lab_2/sprinkler_valve_controller/sprinkler_circuit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 sprinkler_circuit.ngc sprinkler_circuit.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o sprinkler_circuit_map.ncd sprinkler_circuit.ngd sprinkler_circuit.pcf 
+par -w -intstyle ise -ol high -t 1 sprinkler_circuit_map.ncd sprinkler_circuit.ncd sprinkler_circuit.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml sprinkler_circuit.twx sprinkler_circuit.ncd -o sprinkler_circuit.twr sprinkler_circuit.pcf 
+bitgen -intstyle ise -f sprinkler_circuit.ut sprinkler_circuit.ncd 
+xst -intstyle ise -ifn "D:/Projects/EE120A/lab_2/sprinkler_valve_controller/sprinkler_circuit.xst" -ofn "D:/Projects/EE120A/lab_2/sprinkler_valve_controller/sprinkler_circuit.syr" 
+xst -intstyle ise -ifn "D:/Projects/EE120A/lab_2/sprinkler_valve_controller/sprinkler_circuit.xst" -ofn "D:/Projects/EE120A/lab_2/sprinkler_valve_controller/sprinkler_circuit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 sprinkler_circuit.ngc sprinkler_circuit.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o sprinkler_circuit_map.ncd sprinkler_circuit.ngd sprinkler_circuit.pcf 
+par -w -intstyle ise -ol high -t 1 sprinkler_circuit_map.ncd sprinkler_circuit.ncd sprinkler_circuit.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml sprinkler_circuit.twx sprinkler_circuit.ncd -o sprinkler_circuit.twr sprinkler_circuit.pcf 
+bitgen -intstyle ise -f sprinkler_circuit.ut sprinkler_circuit.ncd 
+xst -intstyle ise -ifn "D:/Projects/EE120A/lab_2/sprinkler_valve_controller/sprinkler_circuit.xst" -ofn "D:/Projects/EE120A/lab_2/sprinkler_valve_controller/sprinkler_circuit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 sprinkler_circuit.ngc sprinkler_circuit.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o sprinkler_circuit_map.ncd sprinkler_circuit.ngd sprinkler_circuit.pcf 
+par -w -intstyle ise -ol high -t 1 sprinkler_circuit_map.ncd sprinkler_circuit.ncd sprinkler_circuit.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml sprinkler_circuit.twx sprinkler_circuit.ncd -o sprinkler_circuit.twr sprinkler_circuit.pcf 
+bitgen -intstyle ise -f sprinkler_circuit.ut sprinkler_circuit.ncd 
+xst -intstyle ise -ifn "D:/Projects/EE120A/lab_2/sprinkler_valve_controller/sprinkler_circuit.xst" -ofn "D:/Projects/EE120A/lab_2/sprinkler_valve_controller/sprinkler_circuit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc spinkler_ucf.ucf -p xc3s100e-cp132-5 sprinkler_circuit.ngc sprinkler_circuit.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o sprinkler_circuit_map.ncd sprinkler_circuit.ngd sprinkler_circuit.pcf 
+par -w -intstyle ise -ol high -t 1 sprinkler_circuit_map.ncd sprinkler_circuit.ncd sprinkler_circuit.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml sprinkler_circuit.twx sprinkler_circuit.ncd -o sprinkler_circuit.twr sprinkler_circuit.pcf -ucf spinkler_ucf.ucf 
+bitgen -intstyle ise -f sprinkler_circuit.ut sprinkler_circuit.ncd 
+xst -intstyle ise -ifn "D:/Projects/EE120A/lab_2/sprinkler_valve_controller/sprinkler_circuit.xst" -ofn "D:/Projects/EE120A/lab_2/sprinkler_valve_controller/sprinkler_circuit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc spinkler_ucf.ucf -p xc3s100e-cp132-5 sprinkler_circuit.ngc sprinkler_circuit.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o sprinkler_circuit_map.ncd sprinkler_circuit.ngd sprinkler_circuit.pcf 
+par -w -intstyle ise -ol high -t 1 sprinkler_circuit_map.ncd sprinkler_circuit.ncd sprinkler_circuit.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml sprinkler_circuit.twx sprinkler_circuit.ncd -o sprinkler_circuit.twr sprinkler_circuit.pcf -ucf spinkler_ucf.ucf 
+bitgen -intstyle ise -f sprinkler_circuit.ut sprinkler_circuit.ncd 
+xst -intstyle ise -ifn "D:/Projects/EE120A/lab_2/sprinkler_valve_controller/sprinkler_circuit.xst" -ofn "D:/Projects/EE120A/lab_2/sprinkler_valve_controller/sprinkler_circuit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc spinkler_ucf.ucf -p xc3s100e-cp132-5 sprinkler_circuit.ngc sprinkler_circuit.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o sprinkler_circuit_map.ncd sprinkler_circuit.ngd sprinkler_circuit.pcf 
+par -w -intstyle ise -ol high -t 1 sprinkler_circuit_map.ncd sprinkler_circuit.ncd sprinkler_circuit.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml sprinkler_circuit.twx sprinkler_circuit.ncd -o sprinkler_circuit.twr sprinkler_circuit.pcf -ucf spinkler_ucf.ucf 
+bitgen -intstyle ise -f sprinkler_circuit.ut sprinkler_circuit.ncd 
+xst -intstyle ise -ifn "D:/Projects/EE120A/lab_2/sprinkler_valve_controller/sprinkler_circuit.xst" -ofn "D:/Projects/EE120A/lab_2/sprinkler_valve_controller/sprinkler_circuit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mux_ucf.ucf -uc spinkler_ucf.ucf -p xc3s100e-cp132-5 sprinkler_circuit.ngc sprinkler_circuit.ngd  
+xst -intstyle ise -ifn "D:/Projects/EE120A/lab_2/sprinkler_valve_controller/sprinkler_circuit.xst" -ofn "D:/Projects/EE120A/lab_2/sprinkler_valve_controller/sprinkler_circuit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mux_ucf.ucf -uc spinkler_ucf.ucf -p xc3s100e-cp132-5 sprinkler_circuit.ngc sprinkler_circuit.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc spinkler_ucf.ucf -p xc3s100e-cp132-5 sprinkler_circuit.ngc sprinkler_circuit.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o sprinkler_circuit_map.ncd sprinkler_circuit.ngd sprinkler_circuit.pcf 
+par -w -intstyle ise -ol high -t 1 sprinkler_circuit_map.ncd sprinkler_circuit.ncd sprinkler_circuit.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml sprinkler_circuit.twx sprinkler_circuit.ncd -o sprinkler_circuit.twr sprinkler_circuit.pcf -ucf spinkler_ucf.ucf 
+bitgen -intstyle ise -f sprinkler_circuit.ut sprinkler_circuit.ncd 

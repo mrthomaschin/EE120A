@@ -1,0 +1,21 @@
+//Clock
+NET "clk" LOC = "B8";
+//Input
+NET "sw0" LOC = "P11";
+NET "sw1" LOC = "L3";
+NET "sw2" LOC = "K3";
+NET "sw3" LOC = "B4";
+NET "reset" LOC = "G12";
+//Output
+NET "an[0]" LOC = "K14";
+NET "an[1]" LOC = "M13";
+NET "an[2]" LOC = "M4";
+NET "an[3]" LOC = "A7";
+
+NET "sseg[0]" LOC = "L14"; 
+NET "sseg[1]" LOC = "H12";
+NET "sseg[2]" LOC = "N14";
+NET "sseg[3]" LOC = "N11";
+NET "sseg[4]" LOC = "P12";
+NET "sseg[5]" LOC = "L13";
+NET "sseg[6]" LOC = "M12";

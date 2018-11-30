@@ -1,0 +1,29 @@
+Command line:
+   tailights_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  51844
+
+Wed Jun 06 15:22:02 2018
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 845.976 Meg
+
+ Total Signals          : 19
+ Total Nets             : 25
+ Total Signal Drivers   : 11
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 15
+ Total Traceable Variables  : 24
+ Total Scalar Nets and Variables : 117
+Total Line Count : 74
+
+ Total Simulation Time: 0.453125 sec
+
+ Current Memory Usage: 1161.07 Meg
+
+Wed Jun 06 15:22:49 2018
+

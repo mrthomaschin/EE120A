@@ -1,0 +1,10 @@
+sch2sym -intstyle ise -family spartan3e -refsym mux D:/Projects/EE120A/lab_2/sprinkler_valve_controller/mux.sch D:/Projects/EE120A/lab_2/sprinkler_valve_controller/mux.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl mux_drc.vhf -w D:/Projects/EE120A/lab_2/sprinkler_valve_controller/mux.sch 
+xst -intstyle ise -ifn "D:/Projects/EE120A/lab_2/sprinkler_valve_controller/mux.xst" -ofn "D:/Projects/EE120A/lab_2/sprinkler_valve_controller/mux.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mux_ucf.ucf -uc spinkler_ucf.ucf -p xc3s100e-cp132-5 mux.ngc mux.ngd  
+xst -intstyle ise -ifn "D:/Projects/EE120A/lab_2/sprinkler_valve_controller/mux.xst" -ofn "D:/Projects/EE120A/lab_2/sprinkler_valve_controller/mux.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mux_ucf.ucf -p xc3s100e-cp132-5 mux.ngc mux.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o mux_map.ncd mux.ngd mux.pcf 
+par -w -intstyle ise -ol high -t 1 mux_map.ncd mux.ncd mux.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mux.twx mux.ncd -o mux.twr mux.pcf -ucf mux_ucf.ucf 
+bitgen -intstyle ise -f mux.ut mux.ncd 

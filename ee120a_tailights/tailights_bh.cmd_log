@@ -1,0 +1,101 @@
+xst -intstyle ise -ifn "D:/Projects/EE120A/ee120a_tailights/tailights_bh.xst" -ofn "D:/Projects/EE120A/ee120a_tailights/tailights_bh.syr" 
+xst -intstyle ise -ifn "D:/Projects/EE120A/ee120a_tailights/tailights_bh.xst" -ofn "D:/Projects/EE120A/ee120a_tailights/tailights_bh.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tailights.ucf -p xc3s100e-cp132-5 tailights_bh.ngc tailights_bh.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o tailights_bh_map.ncd tailights_bh.ngd tailights_bh.pcf 
+par -w -intstyle ise -ol high -t 1 tailights_bh_map.ncd tailights_bh.ncd tailights_bh.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml tailights_bh.twx tailights_bh.ncd -o tailights_bh.twr tailights_bh.pcf -ucf tailights.ucf 
+bitgen -intstyle ise -f tailights_bh.ut tailights_bh.ncd 
+bitgen -intstyle ise -f tailights_bh.ut tailights_bh.ncd 
+xst -intstyle ise -ifn "D:/Projects/EE120A/ee120a_tailights/tailights_bh.xst" -ofn "D:/Projects/EE120A/ee120a_tailights/tailights_bh.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tailights.ucf -p xc3s100e-cp132-5 tailights_bh.ngc tailights_bh.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o tailights_bh_map.ncd tailights_bh.ngd tailights_bh.pcf 
+par -w -intstyle ise -ol high -t 1 tailights_bh_map.ncd tailights_bh.ncd tailights_bh.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml tailights_bh.twx tailights_bh.ncd -o tailights_bh.twr tailights_bh.pcf -ucf tailights.ucf 
+bitgen -intstyle ise -f tailights_bh.ut tailights_bh.ncd 
+xst -intstyle ise -ifn "D:/Projects/EE120A/ee120a_tailights/tailights_bh.xst" -ofn "D:/Projects/EE120A/ee120a_tailights/tailights_bh.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tailights.ucf -p xc3s100e-cp132-5 tailights_bh.ngc tailights_bh.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o tailights_bh_map.ncd tailights_bh.ngd tailights_bh.pcf 
+par -w -intstyle ise -ol high -t 1 tailights_bh_map.ncd tailights_bh.ncd tailights_bh.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml tailights_bh.twx tailights_bh.ncd -o tailights_bh.twr tailights_bh.pcf -ucf tailights.ucf 
+bitgen -intstyle ise -f tailights_bh.ut tailights_bh.ncd 
+xst -intstyle ise -ifn "D:/Projects/EE120A/ee120a_tailights/tailights_bh.xst" -ofn "D:/Projects/EE120A/ee120a_tailights/tailights_bh.syr" 
+xst -intstyle ise -ifn "D:/Projects/EE120A/ee120a_tailights/tailights_bh.xst" -ofn "D:/Projects/EE120A/ee120a_tailights/tailights_bh.syr" 
+xst -intstyle ise -ifn "D:/Projects/EE120A/ee120a_tailights/tailights_bh.xst" -ofn "D:/Projects/EE120A/ee120a_tailights/tailights_bh.syr" 
+xst -intstyle ise -ifn "D:/Projects/EE120A/ee120a_tailights/tailights_bh.xst" -ofn "D:/Projects/EE120A/ee120a_tailights/tailights_bh.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tailights.ucf -p xc3s100e-cp132-5 tailights_bh.ngc tailights_bh.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o tailights_bh_map.ncd tailights_bh.ngd tailights_bh.pcf 
+par -w -intstyle ise -ol high -t 1 tailights_bh_map.ncd tailights_bh.ncd tailights_bh.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml tailights_bh.twx tailights_bh.ncd -o tailights_bh.twr tailights_bh.pcf -ucf tailights.ucf 
+bitgen -intstyle ise -f tailights_bh.ut tailights_bh.ncd 
+xst -intstyle ise -ifn "D:/Projects/EE120A/ee120a_tailights/tailights_bh.xst" -ofn "D:/Projects/EE120A/ee120a_tailights/tailights_bh.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tailights.ucf -p xc3s100e-cp132-5 tailights_bh.ngc tailights_bh.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o tailights_bh_map.ncd tailights_bh.ngd tailights_bh.pcf 
+par -w -intstyle ise -ol high -t 1 tailights_bh_map.ncd tailights_bh.ncd tailights_bh.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml tailights_bh.twx tailights_bh.ncd -o tailights_bh.twr tailights_bh.pcf -ucf tailights.ucf 
+bitgen -intstyle ise -f tailights_bh.ut tailights_bh.ncd 
+xst -intstyle ise -ifn "D:/Projects/EE120A/ee120a_tailights/tailights_bh.xst" -ofn "D:/Projects/EE120A/ee120a_tailights/tailights_bh.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tailights.ucf -p xc3s100e-cp132-5 tailights_bh.ngc tailights_bh.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o tailights_bh_map.ncd tailights_bh.ngd tailights_bh.pcf 
+par -w -intstyle ise -ol high -t 1 tailights_bh_map.ncd tailights_bh.ncd tailights_bh.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml tailights_bh.twx tailights_bh.ncd -o tailights_bh.twr tailights_bh.pcf -ucf tailights.ucf 
+bitgen -intstyle ise -f tailights_bh.ut tailights_bh.ncd 
+xst -intstyle ise -ifn "D:/Projects/EE120A/ee120a_tailights/tailights_bh.xst" -ofn "D:/Projects/EE120A/ee120a_tailights/tailights_bh.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tailights.ucf -p xc3s100e-cp132-5 tailights_bh.ngc tailights_bh.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o tailights_bh_map.ncd tailights_bh.ngd tailights_bh.pcf 
+par -w -intstyle ise -ol high -t 1 tailights_bh_map.ncd tailights_bh.ncd tailights_bh.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml tailights_bh.twx tailights_bh.ncd -o tailights_bh.twr tailights_bh.pcf -ucf tailights.ucf 
+bitgen -intstyle ise -f tailights_bh.ut tailights_bh.ncd 
+xst -intstyle ise -ifn "D:/Projects/EE120A/ee120a_tailights/tailights_bh.xst" -ofn "D:/Projects/EE120A/ee120a_tailights/tailights_bh.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tailights.ucf -p xc3s100e-cp132-5 tailights_bh.ngc tailights_bh.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o tailights_bh_map.ncd tailights_bh.ngd tailights_bh.pcf 
+par -w -intstyle ise -ol high -t 1 tailights_bh_map.ncd tailights_bh.ncd tailights_bh.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml tailights_bh.twx tailights_bh.ncd -o tailights_bh.twr tailights_bh.pcf -ucf tailights.ucf 
+bitgen -intstyle ise -f tailights_bh.ut tailights_bh.ncd 
+xst -intstyle ise -ifn "D:/Projects/EE120A/ee120a_tailights/tailights_bh.xst" -ofn "D:/Projects/EE120A/ee120a_tailights/tailights_bh.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tailights.ucf -p xc3s100e-cp132-5 tailights_bh.ngc tailights_bh.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o tailights_bh_map.ncd tailights_bh.ngd tailights_bh.pcf 
+par -w -intstyle ise -ol high -t 1 tailights_bh_map.ncd tailights_bh.ncd tailights_bh.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml tailights_bh.twx tailights_bh.ncd -o tailights_bh.twr tailights_bh.pcf -ucf tailights.ucf 
+bitgen -intstyle ise -f tailights_bh.ut tailights_bh.ncd 
+xst -intstyle ise -ifn "D:/Projects/EE120A/ee120a_tailights/tailights_bh.xst" -ofn "D:/Projects/EE120A/ee120a_tailights/tailights_bh.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tailights.ucf -p xc3s100e-cp132-5 tailights_bh.ngc tailights_bh.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o tailights_bh_map.ncd tailights_bh.ngd tailights_bh.pcf 
+par -w -intstyle ise -ol high -t 1 tailights_bh_map.ncd tailights_bh.ncd tailights_bh.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml tailights_bh.twx tailights_bh.ncd -o tailights_bh.twr tailights_bh.pcf -ucf tailights.ucf 
+bitgen -intstyle ise -f tailights_bh.ut tailights_bh.ncd 
+xst -intstyle ise -ifn "D:/Projects/EE120A/ee120a_tailights/tailights_bh.xst" -ofn "D:/Projects/EE120A/ee120a_tailights/tailights_bh.syr" 
+xst -intstyle ise -ifn "D:/Projects/EE120A/ee120a_tailights/tailights_bh.xst" -ofn "D:/Projects/EE120A/ee120a_tailights/tailights_bh.syr" 
+xst -intstyle ise -ifn "D:/Projects/EE120A/ee120a_tailights/tailights_bh.xst" -ofn "D:/Projects/EE120A/ee120a_tailights/tailights_bh.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tailights.ucf -p xc3s100e-cp132-5 tailights_bh.ngc tailights_bh.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o tailights_bh_map.ncd tailights_bh.ngd tailights_bh.pcf 
+par -w -intstyle ise -ol high -t 1 tailights_bh_map.ncd tailights_bh.ncd tailights_bh.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml tailights_bh.twx tailights_bh.ncd -o tailights_bh.twr tailights_bh.pcf -ucf tailights.ucf 
+bitgen -intstyle ise -f tailights_bh.ut tailights_bh.ncd 
+xst -intstyle ise -ifn "D:/Projects/EE120A/ee120a_tailights/tailights_bh.xst" -ofn "D:/Projects/EE120A/ee120a_tailights/tailights_bh.syr" 
+xst -intstyle ise -ifn "D:/Projects/EE120A/ee120a_tailights/tailights_bh.xst" -ofn "D:/Projects/EE120A/ee120a_tailights/tailights_bh.syr" 
+xst -intstyle ise -ifn "D:/Projects/EE120A/ee120a_tailights/tailights_bh.xst" -ofn "D:/Projects/EE120A/ee120a_tailights/tailights_bh.syr" 
+xst -intstyle ise -ifn "D:/Projects/EE120A/ee120a_tailights/tailights_bh.xst" -ofn "D:/Projects/EE120A/ee120a_tailights/tailights_bh.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tailights.ucf -p xc3s100e-cp132-5 tailights_bh.ngc tailights_bh.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o tailights_bh_map.ncd tailights_bh.ngd tailights_bh.pcf 
+par -w -intstyle ise -ol high -t 1 tailights_bh_map.ncd tailights_bh.ncd tailights_bh.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml tailights_bh.twx tailights_bh.ncd -o tailights_bh.twr tailights_bh.pcf -ucf tailights.ucf 
+bitgen -intstyle ise -f tailights_bh.ut tailights_bh.ncd 
+xst -intstyle ise -ifn "D:/Projects/EE120A/ee120a_tailights/tailights_bh.xst" -ofn "D:/Projects/EE120A/ee120a_tailights/tailights_bh.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tailights.ucf -p xc3s100e-cp132-5 tailights_bh.ngc tailights_bh.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o tailights_bh_map.ncd tailights_bh.ngd tailights_bh.pcf 
+par -w -intstyle ise -ol high -t 1 tailights_bh_map.ncd tailights_bh.ncd tailights_bh.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml tailights_bh.twx tailights_bh.ncd -o tailights_bh.twr tailights_bh.pcf -ucf tailights.ucf 
+bitgen -intstyle ise -f tailights_bh.ut tailights_bh.ncd 
+xst -intstyle ise -ifn "D:/Projects/EE120A/ee120a_tailights/tailights_bh.xst" -ofn "D:/Projects/EE120A/ee120a_tailights/tailights_bh.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tailights.ucf -p xc3s100e-cp132-5 tailights_bh.ngc tailights_bh.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o tailights_bh_map.ncd tailights_bh.ngd tailights_bh.pcf 
+par -w -intstyle ise -ol high -t 1 tailights_bh_map.ncd tailights_bh.ncd tailights_bh.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml tailights_bh.twx tailights_bh.ncd -o tailights_bh.twr tailights_bh.pcf -ucf tailights.ucf 
+bitgen -intstyle ise -f tailights_bh.ut tailights_bh.ncd 
+xst -intstyle ise -ifn "D:/Projects/EE120A/ee120a_tailights/tailights_bh.xst" -ofn "D:/Projects/EE120A/ee120a_tailights/tailights_bh.syr" 
+xst -intstyle ise -ifn "D:/Projects/EE120A/ee120a_tailights/tailights_bh.xst" -ofn "D:/Projects/EE120A/ee120a_tailights/tailights_bh.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tailights.ucf -p xc3s100e-cp132-5 tailights_bh.ngc tailights_bh.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o tailights_bh_map.ncd tailights_bh.ngd tailights_bh.pcf 
+par -w -intstyle ise -ol high -t 1 tailights_bh_map.ncd tailights_bh.ncd tailights_bh.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml tailights_bh.twx tailights_bh.ncd -o tailights_bh.twr tailights_bh.pcf -ucf tailights.ucf 
+bitgen -intstyle ise -f tailights_bh.ut tailights_bh.ncd 
